@@ -84,7 +84,7 @@ html {
   font-weight: bold;
   color: #f8f6f6;
   margin-bottom: 80px;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins';
 }
 
 .info-title-p {
@@ -275,7 +275,7 @@ button {
 
 /* line 38, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_reset.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Yeseva One", cursive;
+  font-family: 'Poppins';
   color: #1F1F1F;
 }
 
@@ -1515,7 +1515,7 @@ h3 {
 /* line 23, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   color: #ffffff;
-  font-family: "Yeseva One", cursive;
+  font-family: 'Poppins';
   font-size: 45px;
   font-weight: 900;
   margin-bottom: 4px;
@@ -1684,7 +1684,7 @@ h3 {
 
 /* line 30, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_about.scss */
 .about_area .about_info .opening_hour {
-  font-family: "Yeseva One", cursive;
+  font-family: 'Poppins';
   font-size: 30px;
   font-weight: 400;
   color: #252219;
@@ -1917,7 +1917,7 @@ h3 {
 .prising_area .single_service .hair_style_info .prise span {
   font-size: 16px;
   color: #222222;
-  font-family: "Yeseva One", cursive;
+  font-family: 'Poppins';
 }
 
 /* line 57, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_prising.scss */
@@ -2564,7 +2564,7 @@ h3 {
   color: #8c8c8c;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Yeseva One", cursive;
+  font-family: 'Poppins';
 }
 
 /* line 45, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_testmonial.scss */
@@ -3042,7 +3042,7 @@ h3 {
 
 /* line 214, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_gallery.scss */
 .gj-picker-md {
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: 'Poppins';
   font-size: 16px;
   font-weight: 400;
   letter-spacing: .04em;
@@ -3200,7 +3200,7 @@ h3 {
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 38px;
-  font-family: "Yeseva One", cursive;
+  font-family: 'Poppins';
   position: relative;
   margin-top: 20px;
 }
@@ -3296,7 +3296,7 @@ h3 {
 .footer .footer_top .footer_widget ul li a {
   color: #959595;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: 'Poppins';
 }
 
 /* line 115, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_footer.scss */
@@ -3321,7 +3321,7 @@ h3 {
   border: none;
   border: 1px solid #E8E8E8;
   border-radius: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Poppins';
   padding-right: 120px;
 }
 
@@ -3354,7 +3354,7 @@ h3 {
   right: 5px;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: 'Poppins';
 }
 
 /* line 164, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_footer.scss */
@@ -3362,7 +3362,7 @@ h3 {
   font-size: 14px;
   color: #AAB1B7;
   line-height: 26px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Poppins';
 }
 
 /* line 170, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_footer.scss */
@@ -3557,7 +3557,7 @@ h3 {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Lato", sans-serif;
+  font-family: 'Poppins';
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
