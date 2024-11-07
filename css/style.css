@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Yeseva+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Yeseva+One&display=swap");
 /* line 1, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_extend.scss */
@@ -32,6 +37,16 @@
 .nav-link:hover {
   color: #009DFF; /* Warna teks saat hover */
 }
+
+.navbar-brand span {
+  font-weight: 700; /* Membuat teks tebal */
+  font-size: 18px;
+}
+
+.navbar-brand .text-primary {
+  color: #009DFF; /* Sesuaikan dengan warna utama */
+}
+
 
 /* Styling for Contact Button */
 .btn-outline-primary {
@@ -535,10 +550,10 @@ h3 {
 
 .image-background {
   background-color: #009DFF; /* Warna biru untuk latar belakang */
-  width: 180px;
-  height: 240px;
+  width: 150px; /* Lebar background */
+  height: 200px; /* Tinggi background */
   padding: 10px;
-  border-radius: 20px 20px 0 0; /* Membuat bagian atas melengkung */
+  border-radius: 100px 100px 0 0; /* Membuat bagian atas melengkung */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -546,11 +561,11 @@ h3 {
 }
 
 .styled-image {
-  width: 160px;
-  height: 220px;
+  width: 140px; /* Lebar gambar */
+  height: 200px; /* Tinggi gambar */
   object-fit: cover;
-  border-radius: 15px; /* Membuat gambar melengkung */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px; /* Sedikit lengkungan pada gambar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Bayangan pada gambar */
 }
 
 /* Trainer Name Styling */
@@ -559,6 +574,7 @@ h3 {
   font-weight: bold;
   color: #333;
   margin-top: 10px;
+  text-align: center;
 }
 
 
@@ -582,10 +598,11 @@ h3 {
 
 /* Trainer Info Styling */
 .trainer_info p {
-  font-size: 16px;
+  font-size: 20px;
   color: #333;
   margin-bottom: 15px;
   position: relative;
+  font-weight: bold;
 }
 
 .trainer_info p::after {
@@ -1282,6 +1299,7 @@ h3 {
   font-size: 16px;
   color: #666; /* Warna teks deskripsi */
   margin-top: 15px;
+  font-weight: bold;
 }
 
 /* Button Styling */
@@ -1303,7 +1321,8 @@ h3 {
 
 /* Styling untuk gambar slider */
 .slider-image {
-  width: 100%; /* Sesuaikan dengan kontainer */
+  width: 300px; /* Sesuaikan dengan kontainer */
+  height: 300px;
   max-width: 400px; /* Sesuaikan ukuran maksimum gambar */
   border-radius: 50% 50% 0 0; /* Mengatur bentuk melengkung pada atas */
   border: 2px solid #009DFF; /* Memberikan border biru di sekitar gambar */
@@ -1881,14 +1900,15 @@ h3 {
 }
 
 .service_text {
-  font-size: 14px;
+  font-size: 16px;
   color: #555;
+  font-weight: bold;
 }
 
 /* Image Styling */
 .service_image {
-  width: 100%;
-  height: auto;
+  width: 350px;
+  height: 300px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1896,11 +1916,12 @@ h3 {
 
 /* Additional Benefits Styling */
 .additional_benefits h4 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .additional_benefits ul li {
   font-size: 14px;
+  font-weight: bold;
   color: #333;
   border-radius: 5px;
   background-color: #f1f1f1;
@@ -1990,6 +2011,13 @@ h3 {
       flex-direction: column;
   }
 }
+
+/* Membatasi lebar container di service_area */
+.service_area .container {
+  max-width: 800px; /* Sesuaikan lebar maksimal sesuai kebutuhan */
+  margin: 0 auto; /* Mengatur posisi container di tengah */
+}
+
 
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_service.scss */
