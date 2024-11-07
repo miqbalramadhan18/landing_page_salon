@@ -24,6 +24,128 @@ html {
   margin-bottom: 20px; /* Tambahkan jarak sesuai kebutuhan */
 }
 
+/* Styling untuk judul dengan warna biru */
+.highlight-blue {
+  color: #009DFF;
+}
+
+/* Styling untuk gambar agar melengkung dengan garis biru di bawah */
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 10px; /* Memberikan sedikit jarak di bawah gambar */
+}
+
+.rounded-image {
+  width: 240px; /* Sesuaikan ukuran gambar */
+  height: auto;
+  max-width: 400px; /* Sesuaikan ukuran maksimum gambar */
+  border-radius: 50% 50% 0 0; /* Mengatur bentuk melengkung pada atas */
+  border: 2px solid #009DFF; /* Memberikan border biru di sekitar gambar */
+  padding: 5px; /* Memberikan sedikit jarak antara gambar dan border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Bayangan lembut di sekitar gambar */
+
+}
+
+
+/* Styling untuk teks dan daftar */
+.about2_area p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.about-benefits li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.about-benefits li strong {
+  color: #333;
+  font-weight: bold;
+}
+
+
+/* Styling untuk info_area */
+.info_area {
+  background-color: #f8f9fa; /* Warna background */
+  padding: 50px 0;
+}
+
+.info-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #f8f6f6;
+  margin-bottom: 80px;
+  font-family: Arial, sans-serif;
+}
+
+.info-title-p {
+  color: #f8f6f6;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info_area p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+
+.info-image-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.event-image {
+  width: 100%;
+  max-width: 500px; /* Batas ukuran maksimum gambar */
+  opacity: 0.8; /* Membuat gambar sedikit transparan */
+  border-radius: 10px; /* Membuat gambar melengkung */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}
+
+/* Styling untuk Kontak Info */
+.info-contact {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info-contact-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-family: Arial, sans-serif;
+}
+
+.btn-info {
+  background-color: #009DFF;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 20px; /* Membuat tombol menjadi lonjong */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #007BFF; /* Warna saat hover */
+  color: white;
+}
+
+
+
 
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Yeseva+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Yeseva+One&display=swap");
@@ -1356,7 +1478,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/poto_hotel.png);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_slider.scss */
@@ -1371,7 +1493,7 @@ h3 {
 
 /* line 11, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 900px;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2531,8 +2653,8 @@ h3 {
 
 /* Today's Price Styling */
 .today_price_box {
-  background-color: #f9f9f9;
-  border: 2px dashed #009DFF; /* Garis tepi putus-putus untuk variasi */
+  background-color: #009DFF;
+  border: 2px dashed #f3f4f5; /* Garis tepi putus-putus untuk variasi */
   max-width: 300px;
   margin: 0 auto;
 }
@@ -2969,6 +3091,48 @@ h3 {
   color: #919191;
   font-size: 16px;
 }
+
+/* Styling untuk Footer Logo */
+.footer_widget .footer_logo img {
+  max-width: 100px; /* Membatasi lebar maksimum logo */
+  height: auto; /* Menjaga proporsi asli logo */
+  margin-bottom: 20px; /* Memberikan jarak antara logo dan teks di bawahnya */
+  display: block;
+}
+
+.footer .footer_widget {
+  text-align: left; /* Menyelaraskan logo dan teks ke kiri */
+}
+
+.footer .address_text {
+  font-size: 14px; /* Mengatur ukuran font untuk teks alamat */
+  line-height: 1.6; /* Memberikan jarak antar baris untuk keterbacaan */
+  color: #f1f1f1;
+}
+
+.footer .socail_links ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px; /* Memberikan jarak antara ikon sosial media */
+}
+
+.footer .socail_links ul li a i {
+  font-size: 18px; /* Ukuran ikon */
+  color: #f1f1f1; /* Warna ikon */
+}
+
+.copy-right_text {
+  padding: 15px 0;
+  background-color: #003366; /* Warna background footer */
+  color: #f1f1f1;
+}
+
+.copy_right {
+  font-size: 13px; /* Ukuran font untuk copyright */
+  color: #f1f1f1;
+}
+
 
 /* line 1, ../../Arafath/CL/january 2020/238. Barber/HTML/scss/_footer.scss */
 .footer {
